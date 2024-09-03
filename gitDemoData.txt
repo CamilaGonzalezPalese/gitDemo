@@ -2,3 +2,13 @@ Paso 5: Hacer Cambios en GitHub
 1. En GitHub, crea un archivo data.txt con datos de ejemplo y haz commit en la rama main.
 2. Realiza cambios en el archivo y haz commit en una nueva rama. Asegúrate de usar el patrón de comentario AB#<ID> en el mensaje de commit, donde <ID> es el número de la tarea en Azure DevOps que creaste antes. Esto hará que el commit se muestre en la tarea correspondiente. Seria AB#id 
 
+Paso 6: Crear una Solicitud de Pull Request
+1. En GitHub, crea una Pull Request desde tu rama.
+2. Asegúrate de usar el patrón de comentario PR AB#<ID> en el mensaje de la Pull Request para vincularla con el problema en Azure DevOps. Seria  PR AB#id 
+
+
+Paso 7: Fusionar la Pull Request y Verificar en Azure DevOps
+1. Revisa y fusiona la Pull Request en GitHub.
+2. Para asegurarte de que la tarea en Azure DevOps se mueva automáticamente al estado "Done" cuando fusionas la Pull Request, usa el patrón de comentario MR fixed AB#<ID> en el mensaje del merge.
+Paso 8: Verificar en Azure DevOps
+1. Vuelve a Azure DevOps y verifica que el problema se haya cerrado automáticamente cuando la Pull Request se fusionó.
