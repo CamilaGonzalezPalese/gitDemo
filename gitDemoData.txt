@@ -1,0 +1,4 @@
+Paso 5: Hacer Cambios en GitHub
+1. En GitHub, crea un archivo data.txt con datos de ejemplo y haz commit en la rama main.
+2. Realiza cambios en el archivo y haz commit en una nueva rama. Asegúrate de usar el patrón de comentario AB#<ID> en el mensaje de commit, donde <ID> es el número de la tarea en Azure DevOps que creaste antes. Esto hará que el commit se muestre en la tarea correspondiente. Seria AB#id 
+
